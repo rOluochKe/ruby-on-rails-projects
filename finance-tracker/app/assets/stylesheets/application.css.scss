@@ -10,6 +10,7 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
@@ -32,4 +33,14 @@
 
 .user-name {
   padding-top: 15px;
+}
+
+.nav.navbar-right li {
+  .btn {
+    color: #fff !important;
+    margin-top: 5%;
+  }
+  .btn-danger:hover {
+    background-color: darken(#d9534f, 20%) !important;
+  }
 }
